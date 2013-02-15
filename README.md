@@ -68,7 +68,7 @@ This block outputs all products with specified attribute set to specified value.
 or
 
 	<reference name="content">
-        <block type="custom_listing/attribute" name="my-specials" template="catalog/product/list.phtml" attribute="manufacturer" value="3">
+        <block type="custom_listing/attribute" name="my-manufacturer" template="catalog/product/list.phtml" attribute="manufacturer" value="3">
             <action method="setColumnCount"><count>3</count></action>
         </block>
     </reference>
