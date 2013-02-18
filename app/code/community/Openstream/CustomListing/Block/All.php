@@ -7,9 +7,9 @@ class Openstream_CustomListing_Block_All extends Openstream_CustomListing_Block_
         if (is_null($this->_productCollection)) {
             $this->_productCollection = Mage::getResourceModel('reports/product_collection');
             $this->_productCollection->addAttributeToSelect('*')
-                                     ->setVisibility($this->_visibleInCatalogIds)
                                      ->addStoreFilter();
         }
-        return $this->_productCollection;
+
+        return parent::_getProductCollection();
     }
 }
