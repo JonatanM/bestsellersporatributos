@@ -40,7 +40,7 @@ class Openstream_CustomListing_Block_Catalog_Product_List_Toolbar
 
         $this->getDataSetDefault('show_toolbar', 1)
             ? $this->setTemplate('catalog/product/list/toolbar.phtml')
-            : $this->setTemplate('catalog/product/list/toolbar-hidden.phtml');
+            : $this->setTemplate('openstream/custom_listing/toolbar-hidden.phtml');
 
     }
 }
