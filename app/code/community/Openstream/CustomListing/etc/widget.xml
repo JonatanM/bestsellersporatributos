@@ -111,7 +111,7 @@
                 <label>Grid Column Count</label>
                 <visible>1</visible>
                 <type>text</type>
-                <value>1</value>
+                <value>3</value>
                 <depends>
                     <list_mode>
                         <values>
@@ -186,7 +186,7 @@
                 <label>Grid Column Count</label>
                 <visible>1</visible>
                 <type>text</type>
-                <value>1</value>
+                <value>3</value>
                 <depends>
                     <list_mode>
                         <values>
@@ -248,7 +248,7 @@
                 <label>Grid Column Count</label>
                 <visible>1</visible>
                 <type>text</type>
-                <value>1</value>
+                <value>3</value>
                 <depends>
                     <list_mode>
                         <values>
@@ -310,7 +310,7 @@
                 <label>Grid Column Count</label>
                 <visible>1</visible>
                 <type>text</type>
-                <value>1</value>
+                <value>3</value>
                 <depends>
                     <list_mode>
                         <values>
